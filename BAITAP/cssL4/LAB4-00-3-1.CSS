@@ -1,0 +1,16 @@
+*{
+    margin: 1px;
+    padding: 1px;
+}
+form{
+    align-content: center;
+}
+table{
+    align-content: center;
+    background-color: ghostwhite;
+    border: 1px solid;
+    padding: 1px;
+}
+tbody{
+    align-content: center;
+}

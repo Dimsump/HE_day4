@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 8px;
+    
+}
+ul li{
+    color: blue;
+
+}
+ol li{
+    color: red;
+
+}
+body{
+    background-color: rgba(121, 102, 229, 0.451);
+}

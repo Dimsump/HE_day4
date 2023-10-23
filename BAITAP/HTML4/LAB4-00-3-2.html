@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dangky.html</title>
+    <link rel="stylesheet" href="/Lesson04/BAITAP/cssL4/LAB4-00-3-2.CSS">
+</head>
+<body>
+    <form action="">
+        <h1 >Đăng ký </h1>
+        <table >
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <td>Họ và tên</td>
+                    <td>
+                        <input type="text" name="ten" id="ten">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tên đăng nhập</td>
+                    <td>
+                        <input type="text" name="taiKhoan" id="taiKhoan" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mật khẩu</td>
+                    <td>
+                        <input type="password" name="pass" id="pass" required>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Ảnh đại diện:</td>
+                    <td>
+                        <input type="file" name="avatar" id="avatar">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nhập Email:</td>
+                    <td><input type="email" name="email" id="email" required>
+                    </td>
+                <tr>
+                    <td>Nhập SĐT:</td>
+                    <td>
+                        <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{1}-" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Giới tính</td>
+                    <td>
+                        <input type="radio" name="sex" id="nam" checked>
+                        <label for="sex">Nam</label>
+                        <input type="radio" name="sex" id="nu" checked>
+                        <label for="sex">Nữ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ngày sinh:</td>
+                    <td>
+                        <input type="date" name="naySinh" id="ngaySinh" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Quê quán:</td>
+                    <td>
+                        <select name="tinhThanh" id="tinhThanh" required>
+                            <option value="0">Tùy Chọn</option>
+                            <option value="1">Hà Nội</option>
+                            <option value="2">Đà Nẵng</option>
+                            <option value="3">TP.HCM</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Đăng ký">
+                        <input type="reset" value="Làm lại">
+                    </td>
+                </tr>
+        </table>
+    </form>
+</body>
+</html>
